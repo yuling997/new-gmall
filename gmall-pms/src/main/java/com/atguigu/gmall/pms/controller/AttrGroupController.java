@@ -33,6 +33,14 @@ public class AttrGroupController {
     @Autowired
     private AttrGroupService attrGroupService;
 
+    @ApiOperation("根据三级分类id分页查询")
+    @GetMapping("{catId}")
+    public Resp<PageVo> queryGroupsByCidPage(QueryCondition queryCondition, @PathVariable("catId")Long catId){
+
+        PageVo page = this.attrGroupService.queryGroupsByCidPage(queryCondition, catId);
+        return Resp.ok(page);
+    }
+
     /**
      * 列表
      */
