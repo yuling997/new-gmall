@@ -7,6 +7,7 @@ import java.util.Map;
 import com.atguigu.core.bean.PageVo;
 import com.atguigu.core.bean.QueryCondition;
 import com.atguigu.core.bean.Resp;
+import com.atguigu.gmall.pms.vo.GroupVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,6 +33,14 @@ import com.atguigu.gmall.pms.service.AttrGroupService;
 public class AttrGroupController {
     @Autowired
     private AttrGroupService attrGroupService;
+
+    @ApiOperation("根据分组id查询分组及组下的规格参数")
+    @GetMapping("withattr/{gid}")
+    public Resp<GroupVO> queryGroupVOByGid(@PathVariable("gid")Long gid){
+
+        GroupVO groupVO = this.attrGroupService.queryGroupVOByGid(gid);
+        return Resp.ok(groupVO);
+    }
 
     @ApiOperation("根据三级分类id分页查询")
     @GetMapping("{catId}")

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ca9f1b-5a6c-4f92-b71a-9b0900ab848a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/gmall-admin/target/" />
@@ -35,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -49,11 +51,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="409">
+              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/vo/GroupVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -66,6 +107,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>groupVo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>groupVO</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,12 +164,14 @@
         <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java" />
-        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java" />
-        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java" />
         <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrController.java" />
         <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrService.java" />
         <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/vo/AttrGroupVO.java" />
+        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/vo/GroupVO.java" />
+        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java" />
+        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java" />
+        <option value="$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -138,8 +189,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="142" />
-    <option name="y" value="182" />
+    <option name="x" value="122" />
+    <option name="y" value="463" />
     <option name="width" value="1475" />
     <option name="height" value="680" />
   </component>
@@ -200,6 +251,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pms" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new-gmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-gmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gmall-pms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pms" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,18 +409,18 @@
       <workItem from="1580970479278" duration="2691000" />
       <workItem from="1580981866994" duration="1720000" />
       <workItem from="1581072274609" duration="3799000" />
-      <workItem from="1581076888806" duration="2189000" />
+      <workItem from="1581076888806" duration="4860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28152000" />
+    <option name="totallyTimeSpent" value="30823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -368,7 +429,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20679887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20679887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,7 +437,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34844193" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34844193" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32577905" />
       <window_info anchor="bottom" id="Problems" order="13" />
@@ -396,13 +457,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/controller/OrderOperateHistoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-oms/src/main/java/com/atguigu/gmall/oms/entity/OrderItemEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -696,31 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -733,8 +766,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="409">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/vo/GroupVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/controller/AttrGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/AttrGroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmall-pms/src/main/java/com/atguigu/gmall/pms/service/impl/AttrGroupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
