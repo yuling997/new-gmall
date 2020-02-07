@@ -1,5 +1,9 @@
 package com.atguigu.gmall.pms.service.impl;
 
+import com.atguigu.gmall.pms.dao.AttrAttrgroupRelationDao;
+import com.atguigu.gmall.pms.entity.AttrAttrgroupRelationEntity;
+import com.atguigu.gmall.pms.vo.AttrVO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -12,10 +16,14 @@ import com.atguigu.core.bean.QueryCondition;
 import com.atguigu.gmall.pms.dao.AttrDao;
 import com.atguigu.gmall.pms.entity.AttrEntity;
 import com.atguigu.gmall.pms.service.AttrService;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service("attrService")
 public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements AttrService {
+
+    @Autowired
+    private AttrAttrgroupRelationDao relationDao;
 
     @Override
     public PageVo queryPage(QueryCondition params) {
@@ -45,6 +53,20 @@ public class AttrServiceImpl extends ServiceImpl<AttrDao, AttrEntity> implements
         );
 
         return new PageVo(page);
+    }
+
+    @Transactional
+    @Override
+    public void saveAttrVO(AttrVO attrVO) {
+        //新增attr
+        this.save(attrVO);
+        Long attrId = attrVO.getAttrId();
+
+        //新增relation
+        AttrAttrgroupRelationEntity relationEntity = new AttrAttrgroupRelationEntity();
+        relationEntity.setAttrGroupId(attrVO.getAttrGroupId());
+        relationEntity.setAttrId(attrId);
+        this.relationDao.insert(relationEntity);
     }
 
 }
