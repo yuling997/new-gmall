@@ -33,6 +33,14 @@ public class SpuInfoController {
     @Autowired
     private SpuInfoService spuInfoService;
 
+    @ApiOperation("spu商品信息查询")
+    @GetMapping
+    public Resp<PageVo> querySpuByCidOrKey(QueryCondition condition, @RequestParam(value = "catId", defaultValue = "0")Long catId){
+
+        PageVo pageVo = this.spuInfoService.querySpuByCidOrKey(condition, catId);
+        return Resp.ok(pageVo);
+    }
+
     /**
      * 列表
      */
